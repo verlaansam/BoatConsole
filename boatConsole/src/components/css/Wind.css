@@ -1,8 +1,11 @@
-
-.WindInMS{
-    width: 100%;
-    height: 100%;
+.Layout > .Boat{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
     display: flex;
-    align-items: last baseline;
     justify-content: center;
-}
+    align-items: center;
+    flex-direction: row;
+    z-index: 2;
+  }

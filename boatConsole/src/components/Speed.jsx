@@ -12,12 +12,12 @@ export const Speed = () => {
 
     return(
         <>
-        <article className='SpeedInKnots'>
-            <div className='Distance'><p>dist</p><h3>{distance}</h3><p>nm</p></div>
+        <article className='Layout'>
+            <div className='TopLeft'><p>dist</p><h3>{distance}</h3><p>nm</p></div>
             <img className='Speedometer' src={Speedometer}></img>
             <div className='Knots'><h1>{speed}</h1><p>Kn</p></div>
-            <div className='SpeedAverage'><p>Avg</p><h3>{average}</h3><p>Kn</p></div>
-            <div className='SpeedMax'><p>Max</p><h3>{max}</h3><p>Kn</p></div>
+            <div className='BottomLeft'><p>avg</p><h3>{average}</h3><p>kn</p></div>
+            <div className='BottomRight'><p>max</p><h3>{max}</h3><p>kn</p></div>
             <img className='SpeedPointer' src={SpeedPointer} alt="" style={{transform : `rotate(${degrees}deg)`}} />
         </article>
         </>

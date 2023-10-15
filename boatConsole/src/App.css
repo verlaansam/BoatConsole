@@ -49,3 +49,93 @@ section{
   grid-column-start: 6;
   grid-row-start: 4;
 }
+
+.Layout{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 60px 60px 50px;
+}
+
+.TopLeft{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  display: flex;
+  align-items: baseline;
+  padding-left: 7px;
+  padding-top: 3px
+}
+
+.TopLeft  > p{
+  margin: 0;
+  padding-right: 2px;
+}
+
+.TopLeft > h3{
+  margin: 0;
+}
+
+.TopRight{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 1;
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+  padding-right: 7px;
+  padding-top: 3px
+}
+
+.TopRight  > p{
+  margin: 0;
+  padding-right: 2px;
+}
+
+.TopRight > h3{
+  margin: 0;
+}
+
+.Layout > .BottomLeft{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 4;
+  display: flex;
+  align-items: baseline;
+  margin-left: 7px;
+}
+
+.Layout > .BottomLeft > p{
+  padding-right: 2px;
+}
+
+.Layout > .BottomRight{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 4;
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+  margin-right: 5px;
+}
+
+.Layout > .BottomRight > p{
+  padding-right: 2px;
+}
+
+.Layout > .Center{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Layout > .Center > .Baseline{
+  display: flex;
+  align-items: baseline;
+}
