@@ -4,7 +4,7 @@ import SpeedPointer from '../assets/SpeedPointer.svg'
 
 export const Speed = () => {
 
-    const speed = 6.4
+    const speed = 7.2
     const distance = 28.3
     const average = 3.6
     const max = 7.8
