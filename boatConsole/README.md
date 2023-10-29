@@ -47,3 +47,30 @@ tabels:
 --endingcordinates text
 --totalDistance float
 --totalTime float
+
+
+//3d compass
+import { useRef, useState } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
+
+function Box(props) {
+        // This reference gives us direct access to the THREE.Mesh object
+        const ref = useRef()
+        return (
+          <mesh
+            {...props}
+            ref={ref}>
+            <boxGeometry args={[1, 1, 1]} />
+            <meshStandardMaterial color={'orange'} />
+          </mesh>
+        )
+      }
+
+<Canvas>
+    <ambientLight intensity={Math.PI / 2} />
+    <Box position={[0, 0, 0]} />
+    <OrbitControls />
+</Canvas>
+
+         
