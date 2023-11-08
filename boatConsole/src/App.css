@@ -9,6 +9,7 @@ main{
   display: grid;
   grid-template-columns: 55px 1fr 15px 1fr 15px 1fr 55px;
   grid-template-rows: 13px 1fr 14px 1fr 13px;
+  color: white;
 }
 
 section{
