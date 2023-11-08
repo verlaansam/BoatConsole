@@ -6,7 +6,6 @@ import HeadingStrenght from '../assets/HeadingStenght2.svg'
 export const Heading = () => {
 
 
-  const DHOP = 1.2;
 
   return(
       <>

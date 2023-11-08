@@ -73,4 +73,14 @@ function Box(props) {
     <OrbitControls />
 </Canvas>
 
+
+//hotspot on raspberry pi to connect to esp8266
+https://www.tomshardware.com/how-to/raspberry-pi-access-point
+
+
+//rotate screen
+https://www.makeuseof.com/how-to-rotate-your-raspberry-pi-screen-without-moving-the-display/
+
+
+
          
