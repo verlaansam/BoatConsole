@@ -81,6 +81,29 @@ https://www.tomshardware.com/how-to/raspberry-pi-access-point
 //rotate screen
 https://www.makeuseof.com/how-to-rotate-your-raspberry-pi-screen-without-moving-the-display/
 
+//auto open browser with page
+nano /home/pi/.config/lxsession/LXDE-pi/autostart
+@chromium-browser www.raspberrypi.org
+
+
+//webpage inside python
+sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine python3-pyqt5.qtwebchannel libqt5webkit5-dev
+pip install tk
+pip install pywebview
+
+# Import tkinter and webview libraries 
+from tkinter import *
+import webview 
+  
+# define an instance of tkinter 
+tk = Tk() 
+
+#  size of the window where we show our website 
+tk.geometry("800x450") 
+
+# Open website 
+webview.create_window('Full-screen window', 'https://pywebview.flowrl.com/hello', fullscreen=True)
+webview.start() 
 
 
          
