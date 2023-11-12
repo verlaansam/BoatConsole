@@ -74,19 +74,16 @@ function Box(props) {
 </Canvas>
 
 
-//hotspot on raspberry pi to connect to esp8266
-https://www.tomshardware.com/how-to/raspberry-pi-access-point
 
-
-//rotate screen
+# rotate screen
 https://www.makeuseof.com/how-to-rotate-your-raspberry-pi-screen-without-moving-the-display/
 
 //auto open browser with page
 nano /home/pi/.config/lxsession/LXDE-pi/autostart
 @chromium-browser www.raspberrypi.org
 
-
-//webpage inside python
+----------------------------
+# webpage inside python
 sudo apt install python3-pyqt5 python3-pyqt5.qtwebengine python3-pyqt5.qtwebchannel libqt5webkit5-dev
 pip install tk
 pip install pywebview
@@ -104,6 +101,8 @@ tk.geometry("800x450")
 # Open website 
 webview.create_window('Full-screen window', 'https://pywebview.flowrl.com/hello', fullscreen=True)
 webview.start() 
+-------------------------------
 
-
-         
+# static ip 
+https://www.tomshardware.com/how-to/static-ip-raspberry-pi
+or uncommentc in /etc/dhcpcd.config the example change eth0 to wlan0
