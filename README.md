@@ -110,4 +110,4 @@ or uncommentc in /etc/dhcpcd.config the example change eth0 to wlan0
 the al might git. isnt it a mistery
 who tought this would work we now have a branch for front end!!
 
-switch to ubuntu for mongodb
+react/axios to python/flask to db
