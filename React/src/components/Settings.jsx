@@ -2,7 +2,7 @@ import './css/Settings.css'
 
 export const Settings = () => {
 
-
+    
     return(
         <>
         <article className='Settings'>
