@@ -111,3 +111,9 @@ the al might git. isnt it a mistery
 who tought this would work we now have a branch for front end!!
 
 react/axios to python/flask to db
+
+# create database
+https://pimylifeup.com/raspberry-pi-mysql/
+
+test db -> mock_data
+
